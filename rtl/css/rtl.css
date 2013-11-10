@@ -353,7 +353,7 @@
   .rtl #nav li {
     float: none;
   }
-}
-.rtl .author-listing ul {
-  float: none;
+  .rtl .author-listing ul {
+    float: none;
+  }
 }
