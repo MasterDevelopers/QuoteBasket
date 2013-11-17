@@ -18,7 +18,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width" />
     
-    <title>Author Details</title>
+    <title>Top List</title>
     
     <!-- Fonts Stylesheets -->
     <link href='http://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
@@ -29,7 +29,8 @@
     <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css" />
     <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
     <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link type="text/css" rel="stylesheet" href="css/rtl.css" />    
+    <link type="text/css" rel="stylesheet" href="css/rtl.css" />
+    
     <!--[if lte IE 8]>
     <link type="text/css" rel="stylesheet" href="css/ie.css" />
     <script type="text/javascript" src="js/modernizr.min.js"></script>
@@ -51,17 +52,10 @@
 <div id="header-wrap">
 	<div class="container">
         <header id="header" class="row">
-            <div id="header-left" class="col-sm-3">
+            <div id="header-left" class="col-sm-9">
             	<img src="images/logo.png" alt="" />
             </div>
-            <div class="col-sm-6 form-horizontal search-bar">
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button type="button" class="btn"><span class="icon-search"></span></button>
-                        </span>
-                    </div>
-            </div>
+            
             <div id="header-right" class="col-sm-3 social-bar">
                 <a href="#" class="facebook"><span class="icon-facebook"></span></a>
                 <a href="#" class="rss"><span class="icon-rss"></span></a>
@@ -81,8 +75,8 @@
 	<div class="container">
     	<div class="row">
 	        <div class="col-sm-4 pull-right text-right">
-            	<a href="#" class="btn-white">Register</a>
-                <a href="#" class="btn-white">Login</a>
+            	<a href="#myModal-2" role="button"  data-toggle="modal" class="btn-white">Register</a>
+                <a href="#myModal" role="button"  data-toggle="modal" class="btn-white">Login</a>
             </div>
         	<div class="col-sm-8">
                 <nav>
@@ -105,149 +99,104 @@
     </div>
 </div>
 <!--navigation end -->
-
+<div class="banner-wrap">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-sm-1">
+            </div>
+            <div class="col-sm-10">
+                <h1>Search from over 64000+ quotes written by 9000+ authors</h1>
+                <input type="text" class="input-lg">
+                <a class="btn btn-primary btn-lg" href="#">Search</a>
+            </div>
+            <div class="col-sm-1">
+            </div>
+        </div>
+    </div><!-- container -->
+</div>
 
 <!--main start -->
 <div id="main-wrap">
 	<div class="container">
         <div id="main" class="row">
         	<div class="col-sm-9">
-	            <p>&nbsp;</p>
-                <ul class="theme-pagination-2 text-right">
-                    <li class="prev"><a href="#" class="icon-caret-left"></a></li>
-                    <li class="active"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">6</a></li>
-                    <li class="next"><a href="#" class="icon-caret-right"></a></li>
-                </ul>
-                <div class="author-detail-wrap">
-                	<div class="author-img">
-                    	<img src="images/author-large-thumb.jpg" alt="" />
-                        <div class="blue-box">
-                            <h1>G. Gordon Liddy</h1>
-                            <p>November 30, 1930 (age 82)<br />
-                            Brooklyn, New York</p>
-						</div>
-                    </div>
-                    <div class="author-detail-section">
-                    	<h2>Biography</h2>
-                        <p>George Gordon Battle Liddy (born November 30, 1930), known as G. Gordon Liddy, was the chief operative for the White House Plumbers unit that existed from July–September 1971, during Richard Nixon's presidency. Separately, along with E. Howard Hunt, Liddy organized and directed the Watergate burglaries of the Democratic National Committee headquarters in the Watergate building in May and June 1972. After five of Liddy's operatives were arrested inside the DNC offices on June 17, 1972, subsequent investigations of the Watergate scandal led to Nixon's resignation in 1974. Liddy was convicted of burglary, conspiracy and refusing to testify to the Senate committee investigating Watergate. He served nearly fifty-two months in federal prisons.</p>
-                        <div class="like-bar">
-                            <div class="col-sm-12">
-	                            <a href="#" class="btn btn-primary pull-right">Read More on wikipedia</a>
-                                <p><span><img src="images/like.jpg" alt=""><img src="images/send.jpg" alt=""></span>
-                                    <span><img src="images/fb.jpg" alt=""></span>
-                                </p>
-                            </div>
-                        </div>
+                <div class="row author-listing with-border">
+                	<div class="col-lg-12">
+                        <ul class="col-sm-4">
+                            <li><a href="#">Age (979)</a></li>
+                            <li><a href="#">Amazing (758)</a></li>
+                            <li><a href="#">Anger (301)</a></li>
+                            <li><a href="#">Architecture (274)</a></li>
+                            <li><a href="#">Art (969)</a></li>
+                            <li><a href="#">Attitude (459)</a></li>
+                            <li><a href="#">Beauty (850)</a></li>
+                            <li><a href="#">Best (946)</a></li>
+                            <li><a href="#">Birthday (159)</a></li>
+                            <li><a href="#">Business (960)</a></li>
+                            <li><a href="#">Car (658)</a></li>
+                            <li><a href="#">Change (939)</a></li>
+                            <li><a href="#">Communication (249)</a></li>
+                            <li><a href="#">Computers (241)</a></li>
+                            <li><a href="#">Cool (683)</a></li>
+                            <li><a href="#">Computers (241)</a></li>
+                            <li><a href="#">Cool (683)</a></li>
+                            <li><a href="#">Age (979)</a></li>
+                            <li><a href="#">Amazing (758)</a></li>
+                            <li><a href="#">Anger (301)</a></li>
+                            <li><a href="#">Architecture (274)</a></li>
+                            <li><a href="#">Art (969)</a></li>
+                        </ul>
+                        <ul class="col-sm-4">
+	                        <li><a href="#">Car (658)</a></li>
+                            <li><a href="#">Change (939)</a></li>
+                            <li><a href="#">Communication (249)</a></li>
+                            <li><a href="#">Computers (241)</a></li>
+                            <li><a href="#">Cool (683)</a></li>
+                            <li><a href="#">Attitude (459)</a></li>
+                            <li><a href="#">Beauty (850)</a></li>
+                            <li><a href="#">Best (946)</a></li>
+                            <li><a href="#">Birthday (159)</a></li>
+                            <li><a href="#">Business (960)</a></li>
+                            <li><a href="#">Age (979)</a></li>
+                            <li><a href="#">Amazing (758)</a></li>
+                            <li><a href="#">Anger (301)</a></li>
+                            <li><a href="#">Architecture (274)</a></li>
+                            <li><a href="#">Art (969)</a></li>
+                            <li><a href="#">Computers (241)</a></li>
+                            <li><a href="#">Cool (683)</a></li>
+                            <li><a href="#">Age (979)</a></li>
+                            <li><a href="#">Amazing (758)</a></li>
+                            <li><a href="#">Anger (301)</a></li>
+                            <li><a href="#">Architecture (274)</a></li>
+                            <li><a href="#">Art (969)</a></li>
+                        </ul>
+                        <ul class="col-sm-4">
+                            <li><a href="#">Car (658)</a></li>
+                            <li><a href="#">Change (939)</a></li>
+                            <li><a href="#">Communication (249)</a></li>
+                            <li><a href="#">Computers (241)</a></li>
+                            <li><a href="#">Cool (683)</a></li>
+                            <li><a href="#">Age (979)</a></li>
+                            <li><a href="#">Amazing (758)</a></li>
+                            <li><a href="#">Anger (301)</a></li>
+                            <li><a href="#">Architecture (274)</a></li>
+                            <li><a href="#">Art (969)</a></li>
+                            <li><a href="#">Beauty (850)</a></li>
+                            <li><a href="#">Best (946)</a></li>
+                            <li><a href="#">Birthday (159)</a></li>
+                            <li><a href="#">Business (960)</a></li>
+                            <li><a href="#">Best (946)</a></li>
+                            <li><a href="#">Computers (241)</a></li>
+                            <li><a href="#">Cool (683)</a></li>
+                            <li><a href="#">Age (979)</a></li>
+                            <li><a href="#">Amazing (758)</a></li>
+                            <li><a href="#">Anger (301)</a></li>
+                            <li><a href="#">Architecture (274)</a></li>
+                            <li><a href="#">Art (969)</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="quotes-wrap">
-                    <div class="quote">
-                        <p>Choose your life's mate carefully. From this one decision will come 90 percent of all <br />
-                        your happiness or misery. </p>
-                        <p><a href="#">H. Jackson Brown, Jr</a> | <a href="#">Tags: Art, Day, Minute</a> </p>
-                        <div class="like-bar row">
-                            <div class="col-sm-12">
-                                <p><span><img src="images/like.jpg" alt="">
-                                <img src="images/send.jpg" alt=""></span>
-                                <span><img src="images/fb.jpg" alt=""></span>
-                                5 people like this. Sign Up to see what your friends like.</p>
-                            </div>
-                        </div>
-                    </div><!-- quote-->
-                    <div class="quote">
-                        <p>Choose your life's mate carefully. From this one decision will come 90 percent of all <br />
-                        your happiness or misery. </p>
-                        <p><a href="#">H. Jackson Brown, Jr</a> | <a href="#">Tags: Art, Day, Minute</a> </p>
-                        <div class="like-bar row">
-                            <div class="col-sm-12">
-                                <p><span><img src="images/like.jpg" alt="">
-                                <img src="images/send.jpg" alt=""></span>
-                                <span><img src="images/fb.jpg" alt=""></span>
-                                5 people like this. Sign Up to see what your friends like.</p>
-                            </div>
-                        </div>
-                    </div><!-- quote-->
-                    <div class="quote">
-                        <p>Choose your life's mate carefully. From this one decision will come 90 percent of all <br />
-                        your happiness or misery. </p>
-                        <p><a href="#">H. Jackson Brown, Jr</a> | <a href="#">Tags: Art, Day, Minute</a> </p>
-                        <div class="like-bar row">
-                            <div class="col-sm-12">
-                                <p><span><img src="images/like.jpg" alt="">
-                                <img src="images/send.jpg" alt=""></span>
-                                <span><img src="images/fb.jpg" alt=""></span>
-                                5 people like this. Sign Up to see what your friends like.</p>
-                            </div>
-                        </div>
-                    </div><!-- quote-->
-                    <div class="quote">
-                        <p>Choose your life's mate carefully. From this one decision will come 90 percent of all <br />
-                        your happiness or misery. </p>
-                        <p><a href="#">H. Jackson Brown, Jr</a> | <a href="#">Tags: Art, Day, Minute</a> </p>
-                        <div class="like-bar row">
-                            <div class="col-sm-12">
-                                <p><span><img src="images/like.jpg" alt="">
-                                <img src="images/send.jpg" alt=""></span>
-                                <span><img src="images/fb.jpg" alt=""></span>
-                                5 people like this. Sign Up to see what your friends like.</p>
-                            </div>
-                        </div>
-                    </div><!-- quote-->
-                    <div class="quote">
-                        <p>Choose your life's mate carefully. From this one decision will come 90 percent of all <br />
-                        your happiness or misery. </p>
-                        <p><a href="#">H. Jackson Brown, Jr</a> | <a href="#">Tags: Art, Day, Minute</a> </p>
-                        <div class="like-bar row">
-                            <div class="col-sm-12">
-                                <p><span><img src="images/like.jpg" alt="">
-                                <img src="images/send.jpg" alt=""></span>
-                                <span><img src="images/fb.jpg" alt=""></span>
-                                5 people like this. Sign Up to see what your friends like.</p>
-                            </div>
-                        </div>
-                    </div><!-- quote-->
-                    <div class="quote">
-                        <p>Choose your life's mate carefully. From this one decision will come 90 percent of all <br />
-                        your happiness or misery. </p>
-                        <p><a href="#">H. Jackson Brown, Jr</a> | <a href="#">Tags: Art, Day, Minute</a> </p>
-                        <div class="like-bar row">
-                            <div class="col-sm-12">
-                                <p><span><img src="images/like.jpg" alt="">
-                                <img src="images/send.jpg" alt=""></span>
-                                <span><img src="images/fb.jpg" alt=""></span>
-                                5 people like this. Sign Up to see what your friends like.</p>
-                            </div>
-                        </div>
-                    </div><!-- quote-->
-                    <div class="quote">
-                        <p>Choose your life's mate carefully. From this one decision will come 90 percent of all <br />
-                        your happiness or misery. </p>
-                        <p><a href="#">H. Jackson Brown, Jr</a> | <a href="#">Tags: Art, Day, Minute</a> </p>
-                        <div class="like-bar row">
-                            <div class="col-sm-12">
-                                <p><span><img src="images/like.jpg" alt="">
-                                <img src="images/send.jpg" alt=""></span>
-                                <span><img src="images/fb.jpg" alt=""></span>
-                                5 people like this. Sign Up to see what your friends like.</p>
-                            </div>
-                        </div>
-                    </div><!-- quote-->
-              </div><!-- quotes-wrap -->
-              <ul class="theme-pagination-2 text-right">
-                <li class="prev"><a href="#" class="icon-caret-left"></a></li>
-                <li class="active"><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">6</a></li>
-                <li class="next"><a href="#" class="icon-caret-right"></a></li>
-            </ul>
+                
           </div>
           <div class="col-sm-3">
                 <aside id="sidebar">
@@ -299,10 +248,6 @@
                              </div><!-- row -->
 						</div><!-- author-listing-section -->
                     </div><!-- Sidebar-section -->
-                    <div class="sidebar-section">
-                    	<img src="images/fb-frame.jpg" alt="" />
-                    </div>
-                
                 </aside><!--sidebar -->
             </div>
         </div>
@@ -400,6 +345,55 @@
 <!--footer end -->
 
 </div><!--container-fluid -->
+<div id="myModal" class="modal fade signin-model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="model-wrap">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Log In</h3>
+        </div>
+        <div class="modal-body">
+            <form  class="row">
+                <div class="col-sm-12">
+                <label>Enter Your Email Address</label>    
+                <p><input type="text" placeholder="Plese Enter Your Email Address" class="form-control"></p>
+                <label>Enter Your Password</label>    
+                <p><input type="text" placeholder="Password" class="form-control"></p>
+                <p class="clearfix"><button class="btn btn-primary col-sm-6">Log In</button></p>
+                <p><label>OR</label></p>
+                <p class="clearfix"><button class="btn btn-primary col-sm-6"><span class="icon-facebook"></span> Log In with Facebook</button></p>
+                <p class="clearfix"><button class="btn btn-info col-sm-6"><span class="icon-twitter"></span> Log In with Twitter </button></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
+
+
+<div id="myModal-2" class="modal fade signin-model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="model-wrap">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Register</h3>
+        </div>
+        <div class="modal-body">
+            <form  class="row">
+                <div class="col-sm-12">
+                    <label>Name</label>    
+                    <p><input type="text" placeholder="Full Name" class="form-control"></p>
+                    <label>User Name</label>    
+                    <p><input type="text" placeholder="Choose a User Name" class="form-control"></p>
+                    <label>Email Address</label>    
+                    <p><input type="text" placeholder="Plese Enter Your Email Address" class="form-control"></p>
+                    <label>Password</label>    
+                    <p><input type="text" placeholder="Password" class="form-control"></p>
+                    <label>Confirm Password</label>    
+                    <p><input type="text" placeholder="Confirm Password" class="form-control"></p>
+                    <button class="btn btn-primary col-sm-6 col-xs-6">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>

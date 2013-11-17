@@ -155,16 +155,18 @@
                         <a href="#" class="icon-star"></a>
                     </div>
                     <div class="like-bar">
-                    <p>
-                    <span>
-                    <img src="images/like.jpg" alt="" />
-                    <img src="images/send.jpg" alt="" />
-                    </span>
-                    <span><img src="images/fb.jpg" alt="" /></span>
-                    5 people like this. Sign Up to see what your friends like.</p>
+                    <div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1427754394118810";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+					<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                     </div>
                     
-                    <img src="images/fb-social-plugin.jpg" alt="" />
+                    <div class="fb-comments" data-href="http://www.facebook.com" data-numposts="5"></div>
               </div>
           </div>
           <div class="col-sm-3">
